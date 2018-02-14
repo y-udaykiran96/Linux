@@ -118,9 +118,13 @@ export PATH=$ORACLE_HOME/bin:$PATH
 echo "System is shutting down"
 sudo reboot
 
+# After restart
 sudo /etc/init.d/oracle-xe configure
 sudo service oracle-xe start
 #sudo usermod -a -G dba USERNAME
+
+sudo service oracle-xe start
+sqlplus sys as sysdba
 
 
 
