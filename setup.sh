@@ -106,7 +106,7 @@ sudo touch /var/lock/subsys/listener
 
 #vim ~/.bashrc
 echo '
-export ORACLE_HOME=/oracle/product/11.2.0/xe
+export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
 export ORACLE_SID=XE
 export NLS_LANG=`$ORACLE_HOME/bin/nls_lang.sh`
 export ORACLE_BASE=/u01/app/oracle
